@@ -64,4 +64,3 @@ document.getElementById("false").onclick= function(){
 
 
 }
-document.getElementById("summary").innerHTML = "Note that this program is still experimental and will grow slowly!";
