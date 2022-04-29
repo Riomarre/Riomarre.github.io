@@ -16,8 +16,10 @@ document.getElementById("yes").onclick= function(){
 	document.getElementById("no").style.display = "none";
 	document.getElementById("true").style.display = "none";
 	document.getElementById("false").style.display = "none";
+	document.getElementById("summary").innerHTML = "";
 	document.getElementById("text").innerHTML = "I'm Glad";
 	document.getElementById("ans2").innerHTML = "I will make you proud daddy!";
+	document.getElementById("date").innerHTML= "To reset please refresh the page";
 
 
 
@@ -30,8 +32,10 @@ document.getElementById("no").onclick= function(){
 	document.getElementById("no").style.display = "none";
 	document.getElementById("true").style.display = "none";
 	document.getElementById("false").style.display = "none";
+	document.getElementById("summary").innerHTML = "";
 	document.getElementById("text").innerHTML = "Allah hates you!";
 	document.getElementById("ans2").innerHTML = "Mehdi hates you too!";
+	document.getElementById("date").innerHTML= "To reset please refresh the page";
 
 
 
@@ -46,6 +50,8 @@ document.getElementById("true").onclick= function(){
 	document.getElementById("false").style.display = "none";
 	document.getElementById("text").innerHTML = "Heybat is very sexy, that is true!";
 	document.getElementById("ans2").innerHTML = "If you would like his number: +994 55 962 08 42";
+	document.getElementById("summary").innerHTML = "Note that the number is valid for whatsapp";
+	document.getElementById("date").innerHTML= "To reset please refresh the page";
 
 
 
@@ -60,6 +66,8 @@ document.getElementById("false").onclick= function(){
 	document.getElementById("false").style.display = "none";
 	document.getElementById("text").innerHTML = "Fuck you! Why are you mean";
 	document.getElementById("ans2").innerHTML = "Heybat is in fact sexy. Unlike parham!";
+	document.getElementById("summary").innerHTML = "";
+	document.getElementById("date").innerHTML= "To reset please refresh the page";
 
 
 
