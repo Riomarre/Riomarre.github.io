@@ -28,7 +28,8 @@ h99{
 	z-index: 999;
 
 }
-.navbar1{
+.section1{
+	padding: 10px;
 	background: #131313;
 	height: 80px;
 	display: flex;
@@ -54,4 +55,13 @@ h99{
 	z-index: 2;
 
 
+}
+.allq{
+	padding: 5px;
+	font-size: 1rem;
+}
+.openq{
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 1rem;
 }

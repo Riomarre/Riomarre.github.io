@@ -69,7 +69,7 @@ document.getElementById("y23").onclick= function(){
 
 document.getElementById("open1").onclick= function(){
 	document.getElementById("points").innerHTML = "Points so far: "+pts;
-	document.getElementById("open").innerHTML ="user starts typing.";
+	document.getElementById("open").innerHTML ="Open questioned logged.";
 }
 
 // Q3 end and Points display
