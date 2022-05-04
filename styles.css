@@ -12,6 +12,10 @@ p1{
 p2{
 	color: whitesmoke;
 }
+p50{
+	color: red;
+	font-size: 0.9rem;
+}
 q1{
 	color: green;
 }
@@ -62,6 +66,7 @@ h99{
 }
 .openq{
 	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 5px;
 	font-size: 1rem;
 }
