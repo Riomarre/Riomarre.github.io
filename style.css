@@ -1,0 +1,68 @@
+body{
+	background-color: #65C8D0;
+}
+#new{
+	color: red;
+	background-color:black;
+}
+#MENU{
+	color: black;
+	background-color: orange;
+	text-align: center;
+
+}
+#LOGO{
+	display: block;
+	margin: auto;
+}
+#nav{
+
+	color: blueviolet;
+	text-align: center;
+}
+#nav:hover{
+	color: darkred;
+	text-align: center;
+	margin: auto;
+}
+#food{
+	display: grid;
+	border: 4px solid orange;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	margin: auto;
+	background-color: orange;
+
+}
+h3{
+	text-align: center;
+	margin: auto;
+	background-color: orange;
+	border: 1px solid red;
+	padding: 2px ;
+
+}
+
+p{
+	text-align: center;
+	text-align: justify-all;
+}
+#food-desc{
+	display: block;
+	text-align: center;
+	margin: 10px;
+
+}
+div1{
+	text-align: center;
+	margin: auto;
+
+}
+
+table{
+	text-align: center;
+	margin: auto;
+
+}
