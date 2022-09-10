@@ -1,5 +1,8 @@
 body{
 	background-color: #65C8D0;
+	background-image: url("kitchen2.png");
+
+
 }
 #new{
 	color: red;
@@ -15,6 +18,11 @@ body{
 	display: block;
 	margin: auto;
 }
+#alert{
+	display: inline-block;
+	font-size: 10px;
+	color: red;
+}	
 #nav{
 
 	color: blueviolet;
@@ -24,6 +32,10 @@ body{
 	color: darkred;
 	text-align: center;
 	margin: auto;
+}
+p{
+	color: black;
+	background-color: lightskyblue;
 }
 #food{
 	display: grid;
@@ -36,6 +48,14 @@ h2{
 	background-color: orange;
 
 }
+
+#food-name{
+	display: block;
+	align-content: center;
+	background-color:orange ;
+	color: Black;
+}
+
 h3{
 	text-align: center;
 	margin: auto;
@@ -56,13 +76,46 @@ p{
 
 }
 div1{
+	top-margin:10px ;
+	display: block;
 	text-align: center;
-	margin: auto;
+	background-color: lightskyblue;
+}
 
+form{
+
+	background-color: lightskyblue;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 table{
+	width: 50%;
 	text-align: center;
-	margin: auto;
+	align-content: center;
+	table-layout: auto;
+	border: Solid;
+	margin-left: auto;
+	margin-right:auto ;
+	margin-bottom: 10px;
+	background-color: lightskyblue;
 
 }
+th{
+	border: solid;
+}
+td{
+	border: solid;
+}
+#price{
+	display: block;
+	text-align: center;
+}
+
+#ending{
+	background-color: lightskyblue;
+	margin: 0px;
+}
+
+

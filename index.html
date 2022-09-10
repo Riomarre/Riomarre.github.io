@@ -1,23 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">		
     	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
+
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
 		<title>Tato's Restaurant</title>
 
 	</head>
 	<body>
-		<img src="Asset 3.png" alt="LOGO" id="LOGO"></img>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+		<img src="logo.png" alt="LOGO" id="LOGO" class="img-fluid"></img>
 		<h1 id="MENU">Hassan's Menu</h1>
 		<p>Food that will truly enchant your senses.<br>
 		Your toes will <strong>twinkle</strong><br>
 		Tato will probably like this because she thinks I can't cook<br>
 		</p>
-		<h2>Lebanese Cuisine</h2>
-		<p id="food-desc">Hummus, Falafel, Tabbouleh <br></p>
-		<img src="leb.jpg "width="240" height="135" alt="Leb cuis" id="food"></img>
+		<h2>Lebanese Cuisine</h2><br>
+		<div class="container">
+			<div class="row">
+			<div class="col-3">
+				<h2 id="food-name">Hummus</h2>
+				<img src="hummus.jpg" class="img-fluid"/>
+				<p>Chickpeas, tahina, lemon, salt, cumen</p>
+				<span class="alert alert-primary" id="price">500 Lari</span>
+			</div>
+			<div class="col-3">
+				<h2 id="food-name">Falafel</h2>
+				<img src="falafel.jpg" class="img-fluid"/>
+				<p>Chickpeas, herbs, other stuff that idk</p>
+				<span class="alert alert-primary" id="price">900 Lari</span>
+			</div>
+			<div class="col-3">
+				<h2 id="food-name">Tabbouleh</h2>
+				<img src="tabbouleh.webp" class="img-fluid"/>
+				<p>Lettuce, herbs, other stuff that idk</p>
+				<span class="alert alert-primary" id="price">350 Lari</span>
+			</div>
+			<div class="col-3">
+				<h2 id="food-name">Foul <span class="badge" id="alert">New!</span></h2>
+				<img src="Foul.jpg" class="img-fluid"/>
+				<p>Fool, tahina, herbs, black pepper</p>
+				<span class="alert alert-primary" id="price">600 Lari</span>
+
+			</div>
+			</div>
+		</div>
+
+		
+
+
+
+
+
+
 		<table>
 			<tr>
 				<th>DISH</th>
@@ -37,8 +88,29 @@
 			</tr>
 		</table>
 		<h2>Italian Cuisine</h2>
-		<p id="food-desc">Carbonara, patata pure, spaghetti</p> 
-		<img src="ita.jpeg" width="240" height="135" alt="Ita cuis" id="food"></img>
+		<br>
+		<div class="container">
+			<div class="row">
+			<div class="col-4">
+				<h2 id="food-name">Carbonara</h2>
+				<img src="carb.webp" class="img-fluid"/>
+				<p>Pasta, tomato sauce, meat, salt, peppers</p>
+				<span class="alert alert-primary" id="price">1,500 Lari</span>
+			</div>
+			<div class="col-4">
+				<h2 id="food-name">Patata Pure</h2>
+				<img src="patata.jpg" class="img-fluid"/>
+				<p>Chickpeas, herbs, other stuff that idk</p>
+				<span class="alert alert-primary" id="price">900 Lari</span>
+			</div>
+			<div class="col-4">
+				<h2 id="food-name">Spaghetti con polipo</h2>
+				<img src="spagh.webp" class="img-fluid"/>
+				<p>Lettuce, herbs, other stuff that idk</p>
+				<span class="alert alert-primary" id="price">350 Lari</span>
+			</div>
+			</div>
+		</div>
 		<table>
 			<tr>
 				<th>DISH</th>
@@ -49,11 +121,11 @@
 				<td>1,000 Laris</td>
 			</tr>
 			<tr>
-				<td>Patata Pure----><span id="new">NEW!</span></td>
-				<td>150 Laris</td>
+				<td>Patata Pure</td>
+				<td>50 Laris</td>
 			</tr>
 			<tr>
-				<td>Spaghetti <strong>(tastes like ass)</strong></td>
+				<td>Spaghetti con polip <strong>(tastes like <em>ass</em>)</strong></td>
 				<td>500 Laris</td>
 			</tr>
 		</table>
@@ -62,18 +134,21 @@
 			<li>It's <em>good</em></li>
 			<li>It's <em>great</em></li>
 			<li>It's <em>cheap</em></li>
+			<li>I'm a <em>chef</em> so trust me</li>
+
 		</div1>
 
-		<p1>Leave us a review down below</p1>
-		<form>
-			<label for="name">Full Name:<br></label>
-			<input type="text" name="name"><br>
-			<label for="review">Review:<br></label>
-			<input type="text" name="review"><br>
-			<input type="submit" />
-		</form>
+
+
+
+
+
 
 		<a href="location.html" id="nav">FIND US</a>
+
+
+
+
 
 
 	</body>
