@@ -3,154 +3,52 @@
 	<head>
 		<meta charset="UTF-8">		
     	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
-
-
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-
-		<title>Tato's Restaurant</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+		<title>OnlyFriends</title>
 
 	</head>
 	<body>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+		<img src="onlyfrnd.png" id="logo" class="img-fluid"/>
 
 
+		<div class="container text-center">
 
-
-		<img src="logo.png" alt="LOGO" id="LOGO" class="img-fluid"></img>
-		<h1 id="MENU">Hassan's Menu</h1>
-		<p>Food that will truly enchant your senses.<br>
-		Your toes will <strong>twinkle</strong><br>
-		Tato will probably like this because she thinks I can't cook<br>
-		</p>
-		<h2>Lebanese Cuisine</h2><br>
-		<div class="container">
 			<div class="row">
-			<div class="col-3">
-				<h2 id="food-name">Hummus</h2>
-				<img src="hummus.jpg" class="img-fluid"/>
-				<p>Chickpeas, tahina, lemon, salt, cumen</p>
-				<span class="alert alert-primary" id="price">500 Lari</span>
-			</div>
-			<div class="col-3">
-				<h2 id="food-name">Falafel</h2>
-				<img src="falafel.jpg" class="img-fluid"/>
-				<p>Chickpeas, herbs, other stuff that idk</p>
-				<span class="alert alert-primary" id="price">900 Lari</span>
-			</div>
-			<div class="col-3">
-				<h2 id="food-name">Tabbouleh</h2>
-				<img src="tabbouleh.webp" class="img-fluid"/>
-				<p>Lettuce, herbs, other stuff that idk</p>
-				<span class="alert alert-primary" id="price">350 Lari</span>
-			</div>
-			<div class="col-3">
-				<h2 id="food-name">Foul <span class="badge" id="alert">New!</span></h2>
-				<img src="Foul.jpg" class="img-fluid"/>
-				<p>Fool, tahina, herbs, black pepper</p>
-				<span class="alert alert-primary" id="price">600 Lari</span>
+				<div class="col-3" id="news">
+				<h1>NEWS</h1>
+				<div class="rounded d-flex p-2 text-center" id="ndesc">
+					18-09-2022: <br>
+					Hassan began the development of his 1st OnlyFans ripoff!
+					<br>
+					17-09-2022: <br>
+					Hassan managed to see the new tram 16!
+				</div>
+				</div>
+				<div class="col-6" id="main">
+				<h1>MAIN</h1>
+				<img src="pic1.jpg" class="img-fluid rounded">
+				<p><em>LinkedIN</em>
+				 My new LinkedIn pic!!
+				</p>
+				</div>
+				<div class="col-3" id="profpic">
+				<h1>PROFILE</h1>
+				<div class="user one"></div>
+				<h2 id="name">USER</h2>
+				<div id="prflbox">
 
-			</div>
-			</div>
+
+
+				</div>
+				</div>
+			</div>	
 		</div>
+
 
 		
-
-
-
-
-
-
-		<table>
-			<tr>
-				<th>DISH</th>
-				<th>PRICE</th>
-			</tr>
-			<tr>
-				<td>Hummus</td>
-				<td>500 Laris</td>
-			</tr>
-			<tr>
-				<td>Falafel (not recommended)</td>
-				<td>300 Laris</td>
-			</tr>
-			<tr>
-				<td>Tabbouleh <strong>(tastes like heaven)</strong></td>
-				<td>500 Laris</td>
-			</tr>
-		</table>
-		<h2>Italian Cuisine</h2>
-		<br>
-		<div class="container">
-			<div class="row">
-			<div class="col-4">
-				<h2 id="food-name">Carbonara</h2>
-				<img src="carb.webp" class="img-fluid"/>
-				<p>Pasta, tomato sauce, meat, salt, peppers</p>
-				<span class="alert alert-primary" id="price">1,500 Lari</span>
-			</div>
-			<div class="col-4">
-				<h2 id="food-name">Patata Pure</h2>
-				<img src="patata.jpg" class="img-fluid"/>
-				<p>Chickpeas, herbs, other stuff that idk</p>
-				<span class="alert alert-primary" id="price">900 Lari</span>
-			</div>
-			<div class="col-4">
-				<h2 id="food-name">Spaghetti con polipo</h2>
-				<img src="spagh.webp" class="img-fluid"/>
-				<p>Lettuce, herbs, other stuff that idk</p>
-				<span class="alert alert-primary" id="price">350 Lari</span>
-			</div>
-			</div>
-		</div>
-		<table>
-			<tr>
-				<th>DISH</th>
-				<th>PRICE</th>
-			</tr>
-			<tr>
-				<td>Carbonara</td>
-				<td>1,000 Laris</td>
-			</tr>
-			<tr>
-				<td>Patata Pure</td>
-				<td>50 Laris</td>
-			</tr>
-			<tr>
-				<td>Spaghetti con polip <strong>(tastes like <em>ass</em>)</strong></td>
-				<td>500 Laris</td>
-			</tr>
-		</table>
-		<h3>Reasons to eat my food</h3>
-		<div1>
-			<li>It's <em>good</em></li>
-			<li>It's <em>great</em></li>
-			<li>It's <em>cheap</em></li>
-			<li>I'm a <em>chef</em> so trust me</li>
-
-		</div1>
-
-
-
-
-
-
-
-		<a href="location.html" id="nav">FIND US</a>
-
-
-
-
-
-
 	</body>
 
 </html>
