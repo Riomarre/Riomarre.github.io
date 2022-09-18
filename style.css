@@ -33,4 +33,11 @@
 
 
 }
+#loc{
+	display: flex;
+	width: 80% ;
+	margin: auto;
+	flex-direction: column;
+
+}
 
