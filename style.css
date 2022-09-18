@@ -1,9 +1,4 @@
 
-body{
-	background-color: lightblue;
-
-}
-
 
 #logo{
 	display: block;
@@ -25,19 +20,12 @@ body{
 #prflbox{
 	background-color: mediumpurple;
 	margin: auto;
+	border: Solid 2px;
 }
 
-.user {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
+#fool {
   border-radius: 50%;
 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+
 }
 
-.one {
-  background-image: url('foul.jpg')
-}
