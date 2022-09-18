@@ -8,6 +8,7 @@
 
 #ndesc{
 	display: flex;
+	flex-direction: column;
 	background-color: mediumpurple;
 	border: Solid 3px purple;
 	margin: auto;
@@ -19,9 +20,12 @@
 }
 
 #prflbox{
+	display: flex;
+	flex-direction: column;
 	background-color: mediumpurple;
 	margin: auto;
 	border: Solid 2px;
+
 }
 
 #fool {
