@@ -18,7 +18,7 @@
 
 
 
-	<div class="container">
+	<div class="container text-center">
 
 		<div class="row">
 
@@ -34,7 +34,81 @@
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
       <input type="submit" value="Login" id="login-form-submit">
+      <input type="submit" value="Register" id="reg-form-submit">
     </form>
+
+  </div>
+
+
+
+
+    <form id="registerForm">
+    	<h1 class="text-center">Register Section</h1>
+    	<h2 class="text-center"> </h2>
+    	
+    	
+    	
+    				<style>
+    					#newUser-field,#newAge-field,#fullName-field{ float: right; margin-top: 10px;}
+    				 #newPass-field,#gender-field,#passCheck-field{float: left;margin-top: 10px; }
+    				 #email-field{}
+    				 .form-check{text-align: left;}
+    				</style>
+
+	    		<div class="row">
+    			<div class="col-6"><input name="fullName" id="fullName-field"  onkeyup="success()" class="login-form-field" placeholder="Full Name" required></div>
+    			<div class="col-6">
+
+    				<div class="form-check">
+  <input required class="form-check-input" type="radio" name="gender" id="gender-field1">
+  <label class="form-check-label" for="gender-field1">Male</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="gender" id="gender-field2">
+  <label class="form-check-label" for="gender-field2">Female</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="gender" id="gender-field3" checked>
+  <label class="form-check-label" for="gender-field3">Non-binary</label>
+</div>
+
+</div>
+    		</div>
+    	<div class="row">
+    		<div class="col-6"><input type="text" name="newUser" id="newUser-field" class="login-form-field" placeholder="Username/Id" required></div>
+    		<div class="col-6"><input type="password" name="newPass" id="newPass-field" class="login-form-field" placeholder="Password" required></div>
+    	</div>
+    		<div class="row">
+    			<div class="col-6"><input type="date" name="newAge" id="newAge-field" class="login-form-field" placeholder="Date of birth" required></div>
+    			<div class="col-6"><input type="password" name="newPass" id="passCheck-field" class="login-form-field" placeholder="Retype Password" required></div>
+    	</div>
+    	<div class="row">
+    			<div class="col-12"><input type="email" name="email" id="email-field" class="login-form-field" placeholder="Email" required></div>
+    	</div>
+
+    	<!--<input type="submit" name="reg2-submit" value="Sign Up" id="reg2-form-submit">-->
+      <input type="submit" name="reg2-submit" id="reg2-form-submit" value="Sign Up">
+
+
+
+    
+
+
+    </form>
+
+
+    </div>
+    	
+
+
+
+    </div>
+
+
+
+
+
+
 </div>
 
 

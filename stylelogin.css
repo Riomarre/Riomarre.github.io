@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
 #login-header{
 	display: block;
 	text-align: center;
@@ -85,4 +88,23 @@
   background-color: #00AFF0;
   cursor: pointer;
   outline: darkblue;
+}
+#reg-form-submit,#reg2-form-submit {
+	margin-top: 10px;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #00AFF0;
+  cursor: pointer;
+  outline: darkblue;
+}
+
+#registerForm{
+	font-weight: bold;
+	opacity: 0;
+	margin-top: 10px;
+
 }

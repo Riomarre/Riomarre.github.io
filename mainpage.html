@@ -6,10 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+		<script src="login.js"></script>
 		<title>OnlyFriends</title>
+
 
 	</head>
 	<body class="bg-info ">
+		<script type="text/javascript">document.getElementById().inner.HTML = Date()</script> <br>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 		<div class="bg-white">
 		<img src="onlyfrnd.png" id="logo" class="img-fluid">
@@ -25,6 +28,16 @@
 				<div class="col-lg-3 order-lg-1 col-12 order-3" id="extra">
 				<h1>NEWS</h1>
 				<div class="rounded d-flex p-2 bd-highlight" id="ndesc">
+					<div id="current_date">
+					<script>
+					date = new Date();
+					year = date.getFullYear();
+					month = date.getMonth() + 1;
+					day = date.getDate();
+					document.getElementById("current_date").innerHTML = "Today's Date:"+month + "/" + day + "/" + year;
+					</script>
+					</div>
+
 					18-09-2022: <br>
 					Hassan began the development of his 1st OnlyFans ripoff!
 					<br>
@@ -34,7 +47,7 @@
 					23-09-2022: <br>
 					Hassan got a new internship interview.
 					<br>
-					17-09-2022: <br>
+					25-09-2022: <br>
 					Heybat visited Hassan for the 1st time in a while.
 					<br>
 				</div>
@@ -72,7 +85,7 @@
 				<img src="Foul.jpg" class="img-fluid" id="fool">
 				<h2 id="name">USER</h2>
 				<div id="prflbox" class="rounded">
-					<p>USER DATA <br> USER Gender <br> USER IP</p>
+					<p id="userData">Admin <br> Admin Gender <br> Admin IP N/A</p>
 				</div>
 				</div>
 
