@@ -1,118 +1,210 @@
-
 <!DOCTYPE html>
-<html = lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">		
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-		 <script defer src="login.js"></script>
-	<title>OnlyFiends Login</title>
 
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+	<title>AEGEE-Torino</title>
 </head>
 <body>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
-	<img src="onlyfrnd.png" id="logo" class="img-fluid">
-
-
-
-	<div class="container text-center">
-
-		<div class="row">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
 
 
+<div class="navbar navbar-dark bg-dark fixed-top" id="mynav" style="opacity: 85%;">
+  <div class="row">
+    <div id="left-section" class="col-lg-6">
+      	<div class="dropdown">
+        <button class=" btn text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 20px;">AEGEE</button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <a class="dropdown-item" href="#home">Who are we?</a>
+		    <a class="dropdown-item" href="#AEGEE">What is AEGEE?</a>
+		    <a class="dropdown-item" href="#events">Events around me</a>
+		    <a class="dropdown-item" href="#footer">Contact US</a>
+		  </div>
+		</div>
 
-	    <h1 id="login-header">Login</h1>
-    
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
     </div>
-    
-    <form id="login-form">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="login-form-submit">
-      <input type="submit" value="Register" id="reg-form-submit">
-    </form>
+</div>
 
+<div id="midsection" class="col-lg-2"> </div>
+    
+    <div id="right-section" class="col-lg-4">
+
+      	
+
+      	<div class="dropdown">
+  <button class=" btn text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:20px;">
+    Language
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">English</a>
+    <a class="dropdown-item" href="#">Italian</a>
+    <a class="dropdown-item" href="#">Spanish</a>
+  </div>
+		</div>
+
+
+
+
+    
+    </div>
+
+  </div>
+  </div>
+  <br>
+  <section id="home"></section>
+
+  <!-- NavBar END -->
+
+<img class="img-fluid" src="pics/boardpic.jpg" style="width: 100%;">
+
+  <div class="container-fluid">
+
+<div class="row">
+	<h2> Who are we?</h2>
+
+	<p>Welcome to the AEGEE-Torino page! We are very happy to have you check us out. <br>
+	<em>So, who are we?</em> <br>
+	We are a group of students/workers whose job is to help the international community become part of the local! So instead of exploring Torino as a toursit, you get explore it as a local. You get all the cool secret locations and explore the city from a completely uniquie perspective. <br>
+	<em> So what are you waiting for? Join us! </em>
+	</p>
+	
+</div>
+
+
+
+  	<div class="row">
+    		<div class="col-12">
+    			<h2 class="title" id="who">More about us</h2>
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="AEGEE">
+          What is AEGEE?
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        AEGEE-Torino is a voluntary association founded in 1992 by a group of students from Torino. It is one of the local branches of AEGEE-Europe, a European network of interdisciplinary student associations with more than 15,000 members and 217 locations across Europe. <br>
+
+            Locally, AEGEE-Torino is committed to spread the key values of the network, like Sustainability, Gender Equality and European Citizenship.
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Purpose
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        To achieve our objectives, we organize conferences, courses, round tables, research and other events on European social issues such as multilingualism, enlargement and diversity. Over the past 4 years more than 6000 young people have participated in 40 different local and international projects. All our projects focus on integrating the educational tools of formal education with non-formal and informal educational activities. The members of AEGEE-Torino are all young people between 18 and 35 years old who actively cooperate for the realization of the main projects.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Member advantages
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Members of our NGO unlock exclusive offers including affordable exchanges with other antennas.
+      </div>
+    </div>
+  </div>
+</div>
+    		
+    	</div>
+    </div>
+
+
+    	    	<div class="row">
+    		<div class="col-12">
+    			<section id="events"></section>
+				<h2 class="title">Events</h2>
+
+				<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="10000">
+      <img src="pics/ape.jpg" class="d-block w-100" alt="...">
+      <h3>Apertivio Linguistico</h3>
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="pics/DrunkKaraoke.JPG" class="d-block w-100" alt="...">
+      <h3>Drunk Karaoke</h3>
+    </div>
+    <div class="carousel-item">
+      <img src="pics/PubCrawl.JPG" class="d-block w-100" alt="...">
+      <h3>Pub Crawl</h3>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+</div>
+			
+   </div>
+   </div>
+
+
+   
+
+
+
+
+  	
+  </div>
+
+
+ <h2 class="title">Contact us</h2>
+  <div id="footer" style="background-color:#3B5998 ; display: block; margin: 0 ;">
+
+
+
+   	<a href="https://www.facebook.com/AegeeTo/" class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com/aegeetorino/" class="fa fa-instagram"></a>
+	<a href="https://t.me/aegeetorino">
+	<img src="logos/tlg.png" class="img-flex" style="  display: inline-block; font-size: 30px;  height: 60px; text-align: center; text-decoration: none; margin: auto;"></a>
+	<a href="https://chat.whatsapp.com/KxtbWXIusCv1ni1KrN68qn">
+	<img src="logos/wts.png" class="img-flex" style="  display: inline-block; font-size: 30px;  height: 60px; text-align: center; text-decoration: none; margin: auto; background-color: white;"></a>
+  	
   </div>
 
 
 
 
-    <form id="registerForm">
-    	<h1 class="text-center">Register Section</h1>
-    	<h2 class="text-center"> </h2>
-    	
-    	
-    	
-    				<style>
-    					#newUser-field,#newAge-field,#fullName-field{ float: right; margin-top: 10px;}
-    				 #newPass-field,#gender-field,#passCheck-field{float: left;margin-top: 10px; }
-    				 #email-field{}
-    				 .form-check{text-align: left;}
-    				</style>
 
-	    		<div class="row">
-    			<div class="col-6"><input name="fullName" id="fullName-field"  onkeyup="success()" class="login-form-field" placeholder="Full Name" required></div>
-    			<div class="col-6">
-
-    				<div class="form-check">
-  <input required class="form-check-input" type="radio" name="gender" id="gender-field1">
-  <label class="form-check-label" for="gender-field1">Male</label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="gender" id="gender-field2">
-  <label class="form-check-label" for="gender-field2">Female</label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="gender" id="gender-field3" checked>
-  <label class="form-check-label" for="gender-field3">Non-binary</label>
-</div>
-
-</div>
-    		</div>
-    	<div class="row">
-    		<div class="col-6"><input type="text" name="newUser" id="newUser-field" class="login-form-field" placeholder="Username/Id" required></div>
-    		<div class="col-6"><input type="password" name="newPass" id="newPass-field" class="login-form-field" placeholder="Password" required></div>
-    	</div>
-    		<div class="row">
-    			<div class="col-6"><input type="date" name="newAge" id="newAge-field" class="login-form-field" placeholder="Date of birth" required></div>
-    			<div class="col-6"><input type="password" name="newPass" id="passCheck-field" class="login-form-field" placeholder="Retype Password" required></div>
-    	</div>
-    	<div class="row">
-    			<div class="col-12"><input type="email" name="email" id="email-field" class="login-form-field" placeholder="Email" required></div>
-    	</div>
-
-    	<!--<input type="submit" name="reg2-submit" value="Sign Up" id="reg2-form-submit">-->
-      <input type="submit" name="reg2-submit" id="reg2-form-submit" value="Sign Up">
-
-
-
-    
-
-
-    </form>
-
-
-    </div>
-    	
-
-
-
-    </div>
-
-
-
-
-
-
-</div>
-
-
-</div>
 
 </body>
+
+
 </html>

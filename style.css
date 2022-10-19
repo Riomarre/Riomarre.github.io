@@ -1,43 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-
-#logo{
-	display: block;
-	margin: auto;
-	background-color: white;
-	}
-
-#ndesc{
-	display: flex;
-	flex-direction: column;
-	background-color: mediumpurple;
-	border: Solid 3px purple;
-	margin: auto;
+*{
+  font-family: 'Open Sans', sans-serif ;
 }
 
-#name{
-	text-align: center;
-
+h2{
+  margin: auto;
+  margin-top: 20px;
+  font-size: 3rem;
+  color: #1468b3;
 }
 
-#prflbox{
-	display: flex;
-	flex-direction: column;
-	background-color: mediumpurple;
-	margin: auto;
-	border: Solid 2px;
-
+.title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
 }
 
-#fool {
-  border-radius: 50%;
 
 
-}
-#loc{
-	display: flex;
-	width: 80% ;
-	margin: auto;
-	flex-direction: column;
-
+.myP {
+  text-align: justify;
+  padding-left:15%;
+  padding-right:15%;
+  font-size: 20px;
 }
 
+.fa {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
+
+@media all and (max-width:700px){
+  .myP {
+    padding:2%;
+  }
+}
