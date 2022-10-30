@@ -105,7 +105,7 @@ video{
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: switch 8s infinite ease-in-out;
+    animation: switch 8s  ease-in-out;
     min-width: 100%;
     margin: auto;
     z-index: 99;
