@@ -11,6 +11,8 @@ h2{
   color: #1468b3;
 }
 
+
+
 .title{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -92,8 +94,18 @@ h2{
   display: block;
   height: 600px;
   width:  100%;
-  border-bottom: solid darkred;
   background-color: #1468b3;
+}
+.overlay-line {
+    background: url(logos/line_overlay.png) repeat-x bottom left;
+    width: 100%;
+background-size: cover;
+    position: relative;
+    height: 1vw;
+    bottom: 1vw;
+    left: 0px;
+    z-index: 100;
+    margin: auto;
 }
 
 #g-container {
