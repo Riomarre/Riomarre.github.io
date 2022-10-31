@@ -153,12 +153,43 @@ h2{
   font-size: 3vh;
   padding-top: 50vh;
   text-align: center;
-  max-width: 250px;
+  max-width: 300px;
   display: float;
   z-index: 99;
-
 }
 
+.dyn-txt {
+  font-size: 3vh;
+  animation: switch2 4s;
+}
+.dyn-txt:nth-child(1){
+  animation-delay: -3s;
+}
+.dyn-txt:nth-child(2){
+  animation-delay: -2s;
+}
+.dyn-txt:nth-child(3){
+  color: orange;
+  animation-delay: -1s;
+}
+
+
+
+@keyframes switch2 {
+
+      0%,
+      5%,
+      100% {
+        filter: blur(0px);
+        opacity: 1;
+      }
+
+      50%,
+      80% {
+        filter: blur(300px);
+        opacity: 0;
+      }
+}
 
 @keyframes switch {
 
