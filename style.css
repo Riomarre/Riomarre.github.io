@@ -11,6 +11,10 @@ h2{
   color: #1468b3;
 }
 
+#who-section{
+margin: auto; 
+}
+
 .title{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -30,6 +34,34 @@ video{
   max-height: 1080px; 
   width: 100%;
   z-index: -1;
+}
+#subscript{
+  background-color: transparent;
+  position: absolute;
+  color: white;
+  margin: 0px;
+  font-size: 3vh;
+  padding-top: 50vh;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+  max-width: 100vw;
+  display: float;
+  z-index: 98;
+}
+.dyn-txt {
+  font-size: 3vh;
+  animation: switch2 4s;
+}
+.dyn-txt:nth-child(1){
+  animation-delay: -3s;
+}
+.dyn-txt:nth-child(2){
+  animation-delay: -2s;
+}
+.dyn-txt:nth-child(3){
+  color: orange;
+  animation-delay: -1s;
 }
 .overlay-line {
     background: url(logos/line_overlay.png) repeat-x bottom left;
@@ -145,6 +177,21 @@ background-size: cover;
       50%,
       80% {
         filter: blur(180px);
+        opacity: 0;
+      }
+}
+@keyframes switch2 {
+
+      0%,
+      5%,
+      100% {
+        filter: blur(0px);
+        opacity: 1;
+      }
+
+      50%,
+      80% {
+        filter: blur(300px);
         opacity: 0;
       }
 }

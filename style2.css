@@ -90,6 +90,10 @@ h2{
   }
 }
 
+.container{
+  opacity: 1;
+}
+
 #blu{
   display: block;
   height: 600px;
