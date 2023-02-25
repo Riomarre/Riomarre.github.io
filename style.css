@@ -15,6 +15,15 @@ h2{
 margin: auto; 
 }
 
+ #links p{
+  margin: auto;
+  display:block;
+  text-align: center;
+  margin-top: 20px;
+
+
+}
+
 .title{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -214,3 +223,11 @@ background-size: cover;
       color: #7B7B7B;
     font-size: 13px;
 }
+
+
+
+#board{
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  color: red;
